@@ -1,0 +1,25 @@
+{
+  "authors": [
+    { "id": 1, "name": "Ursula K. Le Guin" },
+    { "id": 2, "name": "Italo Calvino" },
+    { "id": 3, "name": "Jorge Luis Borges" }
+  ],
+  "books": [
+    { "id": 1, "title": "A Wizard of Earthsea", "authorId": 1, "year": 1968, "price": 14.99 },
+    { "id": 2, "title": "The Tombs of Atuan", "authorId": 1, "year": 1971, "price": 13.5 },
+    { "id": 3, "title": "The Farthest Shore", "authorId": 1, "year": 1972, "price": 13.5 },
+    { "id": 4, "title": "Tehanu", "authorId": 1, "year": 1990, "price": 14.99 },
+    { "id": 5, "title": "Invisible Cities", "authorId": 2, "year": 1972, "price": 15.0 },
+    { "id": 6, "title": "If on a winter's night a traveler", "authorId": 2, "year": 1979, "price": 16.0 },
+    { "id": 7, "title": "Cosmicomics", "authorId": 2, "year": 1965, "price": 14.0 },
+    { "id": 8, "title": "Ficciones", "authorId": 3, "year": 1944, "price": 12.5 },
+    { "id": 9, "title": "Labyrinths", "authorId": 3, "year": 1962, "price": 15.5 },
+    { "id": 10, "title": "The Aleph", "authorId": 3, "year": 1949, "price": 13.0 },
+    { "id": 11, "title": "The Book of Sand", "authorId": 3, "year": 1975, "price": 12.0 },
+    { "id": 12, "title": "Dreamtigers", "authorId": 3, "year": 1960, "price": 11.5 }
+  ],
+  "users": [
+    { "id": 1, "username": "alice", "email": "alice@example.com", "password": "$2b$10$0KHI594Bn7CVJ8yw.Q.0GerGGMOrWA/DGKsO1DweAWr.EnmCNPtXe", "role": "user" },
+    { "id": 2, "username": "bob", "email": "bob@example.com", "password": "$2b$10$beaarU0G3R.2rQ2QpeyzceCO2ydm7a9dpnbeRAcMpJMB45dKlrPxi", "role": "admin" }
+  ]
+}

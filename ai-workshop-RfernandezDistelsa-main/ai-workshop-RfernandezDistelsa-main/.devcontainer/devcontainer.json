@@ -1,0 +1,19 @@
+{
+  "name": "Agent Orchestration Workshop",
+  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+  "remoteEnv": {
+    "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
+    "ANTHROPIC_AUTH_TOKEN": "${localEnv:WORKSHOP_API_KEY}",
+    "ANTHROPIC_API_KEY": ""
+  },
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "simon-p.agent-flow"
+      ]
+    }
+  }
+}
